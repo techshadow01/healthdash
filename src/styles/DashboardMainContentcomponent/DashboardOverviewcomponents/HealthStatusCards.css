@@ -1,0 +1,91 @@
+.health-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; /* gap-3 */
+}
+
+.health-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; /* gap-3 */
+  background-color: #f6faff;
+  border-radius: 1rem; /* rounded-2xl */
+  padding: 1rem 1.75rem; /* p-4 px-7 */
+}
+
+.health-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* gap-2 */
+}
+
+.health-card-icon {
+  width: 2rem; /* size-8 */
+  height: 2rem;
+  object-fit: contain;
+}
+
+.health-card-name {
+  color: #5b21b6; /* text-purple-900 */
+  font-weight: 700;
+  font-size: 1.25rem; /* text-xl */
+  text-transform: capitalize;
+}
+
+.health-card-date {
+  color: #94a3b8; /* text-slate-400 */
+  font-size: 0.75rem; /* text-xs */
+}
+
+.health-card-bar-bg {
+  position: relative;
+  width: 120px;
+  height: 8px;
+  border-radius: 9999px; /* rounded-xl */
+  background-color: #dfe2ec;
+  overflow: hidden;
+}
+
+.health-card-bar {
+  position: absolute;
+  height: 100%;
+  border-radius: 9999px;
+  left: 0;
+  top: 0;
+}
+
+/* You can define color classes in CSS or handle in JS inline, example: */
+.red-bar {
+  background-color: #ef4444;
+}
+.green-bar {
+  background-color: #10b981;
+}
+.blue-bar {
+  background-color: #3b82f6;
+}
+
+/* Footer */
+
+.health-card-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.details-container {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem; /* gap-1 */
+}
+
+.details-text {
+  color: #3734a9;
+  font-size: 0.75rem; /* text-xs */
+  font-weight: 600;
+}
+
+.details-arrow {
+  width: 0.75rem; /* size-3 */
+  height: 0.75rem;
+}

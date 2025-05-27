@@ -1,0 +1,61 @@
+.activity-chart {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  position: relative;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.bar {
+  width: 4px;
+  border-radius: 1rem;
+}
+
+.bar-full {
+  height: 100%;
+}
+
+.bar-half {
+  height: 50%;
+}
+
+.bar-third {
+  height: 35%;
+}
+
+.bar-short {
+  height: 30%;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.bar-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 4px;
+  border-radius: 1rem;
+}
+
+.bg-slate {
+  background-color: #cbd5e1; /* Tailwind slate-300 */
+}
+
+.bg-cyan {
+  background-color: #48d3de;
+}
+
+.bg-indigo {
+  background-color: #3734a9;
+}

@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e2ebf8;
+  padding: 12px;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding: 0px;
+  }
+}

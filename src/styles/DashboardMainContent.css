@@ -1,0 +1,28 @@
+.dashboard-main-container {
+  display: flex;
+  gap: 1.25rem; /* 20px (Tailwind gap-5) */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.dashboard-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.calendar-section {
+  gap: 1.25rem; /* Additional spacing between Calendar and UpcomingSchedule */
+}
+
+@media (max-width: 640px) {
+  .dashboard-main-container {
+    flex-direction: column;
+  }
+
+  .dashboard-column,
+  .calendar-section {
+    width: 100%;
+  }
+}

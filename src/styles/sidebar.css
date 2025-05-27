@@ -1,0 +1,108 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+  position: relative;
+  z-index: 10;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 640px) {
+  .sidebar-container {
+    position: absolute;
+    left: -100%;
+  }
+}
+
+.sidebar-background {
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+  background-color: #f6f9ff;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  filter: blur(2px);
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.sidebar-logo {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1.25rem 0;
+}
+
+.logo-highlight {
+  color: #26ddea;
+}
+
+.logo-main {
+  color: #413b6d;
+}
+
+.sidebar-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  margin: 0.75rem 0;
+  text-transform: capitalize;
+  color: #94a3b8; /* Tailwind's text-slate-400 */
+  width: 160px;
+}
+
+.section-title {
+  font-size: 0.875rem;
+}
+
+.section-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.link-label {
+  font-weight: 600;
+}
+
+.active-link {
+  color: #424181;
+}
+
+.sidebar-footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 160px;
+  margin-bottom: 1.5rem;
+}
+
+.settings-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.settings-text {
+  color: #94a3b8; /* text-slate-400 */
+}

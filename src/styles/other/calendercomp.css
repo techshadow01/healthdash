@@ -1,0 +1,102 @@
+.calendar-container {
+  display: flex;
+}
+
+.calendar-day {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  gap: 1rem;
+  width: 70px;
+}
+
+.text-default {
+  color: #18175d;
+}
+
+.text-slate-400 {
+  color: #94a3b8;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.bg-highlight {
+  background-color: #edf4ff;
+}
+
+.calendar-day-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.calendar-day-date {
+  color: #44446c;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.calendar-day-times {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.calendar-time {
+  position: relative;
+  z-index: 20;
+}
+
+.text-white {
+  color: white;
+}
+
+.highlight-dot {
+  position: absolute;
+  width: 0.25rem;
+  height: 0.25rem;
+  background-color: white;
+  border-radius: 9999px;
+  bottom: -0.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 30;
+}
+
+.highlight-bg {
+  position: absolute;
+  top: -0.25rem;
+  left: -18px;
+  height: 27px;
+  border-radius: 10px;
+  z-index: -10;
+}
+
+.highlight-default {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 60px;
+}
+
+.highlight-left {
+  padding-left: 0.75rem;
+  padding-right: 2rem;
+  width: 100px;
+}
+
+.highlight-right {
+  padding-left: 2rem;
+  padding-right: 0.75rem;
+  width: 60px;
+}
+
+.white {
+  color: white;
+}
