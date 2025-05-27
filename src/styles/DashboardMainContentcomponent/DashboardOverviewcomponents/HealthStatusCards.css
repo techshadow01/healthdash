@@ -1,47 +1,47 @@
 .health-cards-container {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem; /* gap-3 */
+  gap: 0.75rem;
 }
 
 .health-card {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem; /* gap-3 */
+  gap: 0.75rem;
   background-color: #f6faff;
-  border-radius: 1rem; /* rounded-2xl */
-  padding: 1rem 1.75rem; /* p-4 px-7 */
+  border-radius: 1rem;
+  padding: 1rem 1.75rem;
 }
 
 .health-card-header {
   display: flex;
   align-items: center;
-  gap: 0.5rem; /* gap-2 */
+  gap: 0.5rem;
 }
 
 .health-card-icon {
-  width: 2rem; /* size-8 */
+  width: 2rem;
   height: 2rem;
   object-fit: contain;
 }
 
 .health-card-name {
-  color: #5b21b6; /* text-purple-900 */
+  color: #5b21b6;
   font-weight: 700;
-  font-size: 1.25rem; /* text-xl */
+  font-size: 1.25rem;
   text-transform: capitalize;
 }
 
 .health-card-date {
-  color: #94a3b8; /* text-slate-400 */
-  font-size: 0.75rem; /* text-xs */
+  color: #94a3b8;
+  font-size: 0.75rem;
 }
 
 .health-card-bar-bg {
   position: relative;
   width: 120px;
   height: 8px;
-  border-radius: 9999px; /* rounded-xl */
+  border-radius: 9999px;
   background-color: #dfe2ec;
   overflow: hidden;
 }
@@ -54,7 +54,6 @@
   top: 0;
 }
 
-/* You can define color classes in CSS or handle in JS inline, example: */
 .red-bar {
   background-color: #ef4444;
 }
@@ -76,16 +75,16 @@
 .details-container {
   display: flex;
   align-items: center;
-  gap: 0.25rem; /* gap-1 */
+  gap: 0.25rem;
 }
 
 .details-text {
   color: #3734a9;
-  font-size: 0.75rem; /* text-xs */
+  font-size: 0.75rem;
   font-weight: 600;
 }
 
 .details-arrow {
-  width: 0.75rem; /* size-3 */
+  width: 0.75rem;
   height: 0.75rem;
 }

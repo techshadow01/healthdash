@@ -1,6 +1,6 @@
 .anatomy-container {
   position: relative;
-  border-radius: 1rem; /* rounded-2xl */
+  border-radius: 1rem;
   width: 270px;
   height: 400px;
   margin: 0 15px;
@@ -12,9 +12,9 @@
 
 .search-icon {
   position: absolute;
-  top: 1.25rem; /* top-5 */
-  right: 1.25rem; /* right-5 */
-  width: 1.5rem; /* size-6 */
+  top: 1.25rem;
+  right: 1.25rem;
+  width: 1.5rem;
   height: 1.5rem;
 }
 
@@ -27,9 +27,9 @@
   position: absolute;
   display: flex;
   align-items: center;
-  gap: 0.25rem; /* gap-1 */
-  font-size: 0.75rem; /* text-xs */
-  padding: 0.375rem 0.625rem; /* p-1.5 px-2.5 */
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  padding: 0.375rem 0.625rem;
   border-radius: 8px;
   font-weight: 500;
 }
@@ -51,6 +51,6 @@
 }
 
 .tag-icon {
-  width: 1.25rem; /* size-5 */
+  width: 1.25rem;
   height: 1.25rem;
 }

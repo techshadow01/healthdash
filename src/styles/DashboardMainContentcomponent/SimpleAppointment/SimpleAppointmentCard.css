@@ -1,23 +1,23 @@
 .simple-appointment-card-container {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem; /* gap-6 */
+  gap: 1.5rem;
 }
 
 .simple-appointment-card {
   display: flex;
   flex-direction: column;
   color: #18175d;
-  gap: 0.5rem; /* gap-2 */
+  gap: 0.5rem;
   background-color: #dde2f9;
-  border-radius: 1.5rem; /* rounded-3xl */
-  padding: 1rem 1rem; /* p-4 px-4 */
+  border-radius: 1.5rem;
+  padding: 1rem 1rem;
 }
 
 .simple-appointment-card-header {
   display: flex;
   align-items: center;
-  gap: 2rem; /* gap-8 */
+  gap: 2rem;
 }
 
 .simple-appointment-task {
@@ -25,6 +25,6 @@
 }
 
 .simple-appointment-img {
-  width: 1.5rem; /* size-6 equivalent */
+  width: 1.5rem;
   height: 1.5rem;
 }
