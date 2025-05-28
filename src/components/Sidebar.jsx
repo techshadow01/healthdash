@@ -1,7 +1,7 @@
 import React from "react";
 import settings from "../assets/sidebar/settings.svg";
 import { navigationlinks } from "../data/navigationlinks.jsx";
-import "../styles/Sidebar.css";
+import "../styles/sidebar.css";
 
 const Sidebar = () => {
   return (
