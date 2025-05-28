@@ -3,7 +3,7 @@ import Noti from "../assets/header/notification.svg";
 import search from "../assets/header/search.svg";
 import add from "../assets/header/add.svg";
 import avatar from "../assets/header/avatar.svg";
-import "../styles/Header.css";
+import "../styles/header.css";
 
 const Header = () => {
   return (
