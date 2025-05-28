@@ -1,6 +1,6 @@
 import React from "react";
 import Human from "../../../assets/dashboardoverview/human.png";
-import Searchplus from "../../../assets/dashboardoverview/Searchplus.svg";
+import Searchplus from "../../../assets/dashboardoverview/searchplus.svg";
 import heart from "../../../assets/dashboardoverview/heart.svg";
 import leg from "../../../assets/dashboardoverview/leg.svg";
 import "../../../styles/DashboardMainContentcomponent/DashboardOverviewcomponents/AnatomySection.css";
